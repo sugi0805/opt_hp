@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+.top_img {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contact_title {
+    background-color: #F4F3EE;
+    padding-bottom: 50px;
+}
+
+
+.inner {
+    font-size: 46px;
+    margin-bottom: 15px; 
+    padding-bottom: 20px;
+}
+
+.inner span {
+    color:#E0AFA0;
+}
+
+.contact_title {
+    position: relative;
+    
+}
+
+.contact_title .inner {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact_item {
+    display: flex;
+    position: absolute;
+    width: 50%;
+  }
+  
+  .contact_txt {
+    line-height: 1.8;
+    font-size: 18px;
+    z-index: 5;
+  }
+
+  .contact_form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact_box {
+    display: flex;
+    margin-bottom: 80px;
+  }
+
+  .contact_form_box1 {
+    height: 51px;
+    width: 69%;
+    padding-left: 6px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  .contact_form_box2 {
+    height: 45px;
+    width: 67%;
+    padding-left: 6px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: solid 1px black;
+  }
+
+  .contact_box._area {
+    margin-bottom: 0;
+  }
+
+  .contact_form_ttl {
+    width: 46%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .contact_form_ttl::after {
+    content: "必須";
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    width: 96px;
+    line-height: 32px;
+    font-size: 15px;
+    color: #c72930;
+    border: 1px solid #c72930;
+    border-radius: 10px;
+  }
+
+  .contact_txtarea {
+    width: 67%;
+    height: 300px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .contact_btn {
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    background: #463F3A;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    position: absolute;
+    left: 500px;
+    top: 850px;
+       
+  }
+  
+  .contact_btn:hover {
+    color: #463F3A;
+    background: #fff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .contact_box {
+      padding: 0 80px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .top img {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .contact_form_ttl::after {
+        content: "必須";
+        position: absolute;
+        left: 160px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+        width: 68px;
+        line-height: 24px;
+        font-size: 15px;
+        color: #c72930;
+        border: 1px solid #c72930;
+        border-radius: 10px;
+    }
+
+        .contact_btn {
+            width: 150px;
+            height: 40px;
+            margin: 0 auto;
+            font-size: 18px;
+            display: block;
+            color: #fff;
+            background: #463F3A;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+            cursor: pointer;
+            border-radius: 20px;
+            position: absolute;
+            left: 310px;
+            top: 850px; 
+      }
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+        font-size: 38px;
+        margin-bottom: 15px; 
+        padding-bottom: 20px;
+    }
+
+    .contact_form_ttl {
+        width: 46%;
+        height: 100%;
+        font-size: 14px;
+        line-height: 1.5;
+        position: relative;
+        margin-top: 10px;
+      }
+
+      .contact_form_ttl::after {
+        content: "必須";
+        position: absolute;
+        left: 0px;
+        top: 40px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+        width: 50px;
+        line-height: 32px;
+        font-size: 12px;
+        color: #c72930;
+        border: 1px solid #c72930;
+        border-radius: 10px;
+      }
+
+    .contact_box {
+        padding: 0 20px;
+    }
+
+    .contact_btn {
+        width: 150px;
+        height: 40px;
+        margin: 0 auto;
+        font-size: 18px;
+        display: block;
+        color: #fff;
+        background: #463F3A;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        cursor: pointer;
+        border-radius: 20px;
+        position: absolute;
+        left: 120px;
+        top: 840px;
+           
+      }
+}

@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+.top_img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about_sg {
+    text-align: center;
+    background-color: #F4F3EE;
+    margin: 25px 0;
+}
+
+.inner {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.inner span {
+    color:#E0AFA0;
+}
+
+.text {
+    display: inline-block;
+    padding: 15px 50px;
+    border:dashed 2px #463F3A;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.company_section {
+    margin: 80px;
+    text-align: center;
+}
+
+.company_inner .intro {
+    font-size: 46px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px dashed #E0AFA0;
+    padding-bottom: 15px;
+}
+
+.company_inner span {
+    color:#E0AFA0;
+}
+
+.company_txt {
+    font-size: 24px;
+}
+
+.company_list {
+    line-height: 40px;
+    display: inline-block;
+}
+
+.company_list p {
+    font-size: 26px;
+}
+
+.company_list span {
+    color: #E0AFA0;
+    font-size: 24px;
+}
+
+.company_list li {
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .top img {
+        width: 80%;
+        height: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .text {
+        display: inline-block;
+        padding: 15px 30px;
+        border:dashed 2px #463F3A;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 30px;
+        background-color: #fff;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .text {
+        display: inline-block;
+        padding: 10px 20px;
+        border:dashed 2px #463F3A;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 30px;
+        background-color: #fff;
+        width: 70%;
+    }
+
+    .company_inner .intro {
+        font-size: 32px;
+        margin-bottom: 15px;
+        text-align: center;
+        border-bottom: 2px dashed #E0AFA0;
+        padding-bottom: 15px;
+    }
+
+    .company_list p {
+        font-size: 18px;
+    }
+    
+    .company_list span {
+        color: #E0AFA0;
+        font-size: 16px;
+    }
+
+}
