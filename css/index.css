@@ -2,25 +2,24 @@
 
 .top {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #F4F3EE;
-    margin-bottom: 50px;
-    padding-bottom: 100px;
-    
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
   }  
 
 .top_img {
-    width: 65%;
+    width: 70%;
     height: auto;
-    margin: 50px 200px;
-    
+    margin: 0px auto;
+    display: inline-block;
   }
   
   .top_bg {
     width: 100%;
     height: 100%;
-    padding-top: 15px;
-    padding-left: 40px;
+    padding-top: 100px;
   }
 
   .information {
@@ -88,8 +87,7 @@
 
   .access {
       text-align: center;
-      position: relative:
-      
+      position: relative:      
   }
 
   .access h1 {
@@ -153,11 +151,17 @@
         text-align: center;
       }
 
+      .top_bg {
+        width: 100%;
+        height: 100%;
+        padding-top: 15px;
+      }
+
       .contents_arrow img {
         width: 90%;
     }
        .contents_item {
-        margin-right: 16px;        
+        margin-right: 4px;        
     }
 
     .access .frame {
@@ -180,17 +184,23 @@
 
     .top {
         width: 100%;
-        height: 35vh;
-        bottom: 8px;
+        height: 200px;
         background-color: #F4F3EE;
-        margin-bottom: 10px;           
-      } 
-
-      .top_img {
-        width: 90%;
-        height: auto;
-        margin: 15px 20px;
         text-align: center;
+        padding-bottom: 40px;
+      }  
+    
+    .top_img {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+        display: inline-block;
+      }
+      
+      .top_bg {
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
       }
     
     .inner {

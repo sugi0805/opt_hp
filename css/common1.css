@@ -220,8 +220,8 @@ header {
       top: 0;
       left: 0;
       z-index: 3;
-      background: #fff;
-        
+      background: #F4F3EE;
+         
     }
     
     header .navbar ul {
@@ -230,6 +230,7 @@ header {
       float: none;
       top: 20%;
       background: #fff;
+      opacity: 0.95;
     }
     
     header .navbar ul li {
@@ -262,7 +263,7 @@ header {
     body.nav-open header .drawer:after {
       top: 9px;
       transform: rotate(45deg);
-    }
+      }
 
     footer {
       padding: 20px 0 20px;

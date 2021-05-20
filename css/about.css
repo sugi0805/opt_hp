@@ -32,6 +32,10 @@
     background-color: #fff;
 }
 
+.text strong {
+    color: #E0AFA0;
+}
+
 .company_section {
     margin: 80px;
     text-align: center;
